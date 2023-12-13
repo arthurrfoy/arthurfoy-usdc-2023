@@ -19,8 +19,6 @@
  * @returns {JSON} - Search results.
  * */ 
  function findSearchTermInBooks(searchTerm, scannedTextObj) {
-    /** You will need to implement your search and 
-     * return the appropriate object here. */
     const results = []
     for(let book of scannedTextObj) {
       if(book['Content']) {
